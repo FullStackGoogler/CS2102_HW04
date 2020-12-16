@@ -1,0 +1,89 @@
+ezzhou - hw4/hw4_main
+
+Total Points Earned
+Theme: addEltTester not heap, Earned Points: 0, Total Available Points: 6
+Theme: addEltTester valid heap, Earned Points: 6.0, Total Available Points: 6.0
+Theme: addEltTester WrongNum added, Earned Points: 6, Total Available Points: 6
+Theme: addEltTester WrongNum other, Earned Points: 6, Total Available Points: 6
+Theme: addEltTester wrong total, Earned Points: 6, Total Available Points: 6
+Theme: remMinEltTester valid heap, Earned Points: 6, Total Available Points: 6
+Theme: remMinEltTester not heap, Earned Points: 0, Total Available Points: 6
+Theme: remMinEltTester WrongNum other, Earned Points: 6, Total Available Points: 6
+Theme: remMinEltTester WrongNum removed, Earned Points: 6, Total Available Points: 6
+Theme: remMinEltTester wrong total, Earned Points: 6, Total Available Points: 6
+
+Our tests on your code:
+Name: testAddEltTesterNotHeap; Result: FAILED
+Theme: addEltTester not heap; Worth: 6; Earned: 0
+Description:
+ addEltTester: Detects result that's not a heap.
+
+Name: testAddEltTesterValidHeap1; Result: PASSED
+Theme: addEltTester valid heap; Worth: 1.5; Earned: 1.5
+Description:
+ addEltTester: Element is added to empty heap correctly.
+
+Name: testAddEltTesterValidHeap2; Result: PASSED
+Theme: addEltTester valid heap; Worth: 1.5; Earned: 1.5
+Description:
+ addEltTester: Element is added to valid heap correctly, and new element is new leaf.
+
+Name: testAddEltTesterValidHeap3; Result: PASSED
+Theme: addEltTester valid heap; Worth: 1.5; Earned: 1.5
+Description:
+ addEltTester: Element is added to valid heap correctly, and new element is new root.
+
+Name: testAddEltTesterValidHeap4; Result: PASSED
+Theme: addEltTester valid heap; Worth: 1.5; Earned: 1.5
+Description:
+ addEltTester: Element is added to valid heap correctly, and new element is new node.
+
+Name: testAddEltTesterWrongNumAdded; Result: PASSED
+Theme: addEltTester WrongNum added; Worth: 6; Earned: 6
+Description:
+ addEltTester: Detects result where added element occurs wrong number of times.
+
+Name: testAddEltTesterWrongNumOther; Result: PASSED
+Theme: addEltTester WrongNum other; Worth: 6; Earned: 6
+Description:
+ addEltTester: Detects result where other elements occur wrong number of times.
+
+Name: testAddEltTesterWrongTotal; Result: PASSED
+Theme: addEltTester wrong total; Worth: 6; Earned: 6
+Description:
+ addEltTester: Detects result where total number of elements is incorrect.
+
+Name: testRemMinEltTesterValidHeap1; Result: PASSED
+Theme: remMinEltTester valid heap; Worth: 2; Earned: 2
+Description:
+ remMinEltTester: Element is removed from the heap correctly.
+
+Name: testRemMinEltTesterValidHeap2; Result: PASSED
+Theme: remMinEltTester valid heap; Worth: 2; Earned: 2
+Description:
+ remMinEltTester: Element is removed from the heap correctly, and the resulting binary tree has the remaining notes in a different configuration.
+
+Name: testRemMinEltTesterValidHeap3; Result: PASSED
+Theme: remMinEltTester valid heap; Worth: 2; Earned: 2
+Description:
+ remMinEltTester: Element is removed from the root of a two-node heap.
+
+Name: testRemMinEltTesterNotHeap; Result: FAILED
+Theme: remMinEltTester not heap; Worth: 6; Earned: 0
+Description:
+ remMinEltTester: Detects result that's not a heap.
+
+Name: testRemMinEltTesterWrongNumOther; Result: PASSED
+Theme: remMinEltTester WrongNum other; Worth: 6; Earned: 6
+Description:
+ remMinEltTester: Detects result where other elements occur wrong number of times.
+
+Name: testRemMinEltTesterWrongNumRemoved; Result: PASSED
+Theme: remMinEltTester WrongNum removed; Worth: 6; Earned: 6
+Description:
+ remMinEltTester: Detects result where removed element occurs wrong number of times.
+
+Name: testRemMinEltTesterWrongTotal; Result: PASSED
+Theme: remMinEltTester wrong total; Worth: 6; Earned: 6
+Description:
+ remMinEltTester: Detects result where total number of elements is incorrect.
